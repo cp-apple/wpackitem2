@@ -13,6 +13,7 @@ import styles from './Greeter.css';
 
 class Greeter extends Component{
 	render() {
+		console.log(styles);
 		return (
 			<div className={styles.rootCon}> 
 				使用cssModule添加类名的方法 <br/>
